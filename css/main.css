@@ -388,6 +388,8 @@ background: #372fd8;
     width: 100%;
     height: 100%;
     margin: 2% auto;
+    color: #eee;
+
 }
 input{
 	border-radius: 5px;
@@ -398,6 +400,9 @@ input{
     margin: 2%;
     outline: none;
 }
+input:focus{
+  filter: brightness(80%);
+}
 input[type=text],
 input[type=email]{
 	width: 30%;
@@ -405,6 +410,7 @@ input[type=email]{
 input.message{
 	width: 71%;
   height: 100px;
+
 }
 input[type=button]{
 	display: block;

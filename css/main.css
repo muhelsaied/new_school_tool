@@ -309,25 +309,18 @@ background: hsl(16,100%,45%);
     -moz-transition:all .5s ease;
     transition:all .5s ease;
 }
-.sub-2,
-.sub-3,
-.sub-4{
-	position: relative;
-  margin-top: -63%;
-/*	top: 430%;*/
-	overflow: hidden;
-	opacity: 0;
-	-webkit-transition:all .5s ease;
+
+    .s-2,
+    .s-3,
+    .s-4{
+      display: none;
+        opacity: 0;
+  -webkit-transition:all .5s ease;
     -o-transition:all .5s ease;
     -moz-transition:all .5s ease;
     transition:all .5s ease;
-}
-.sub-3{
-  margin-top: -98%;
-}
-.sub-4{
-  margin-top: -108%;
-}
+    }
+
 .ch-1,
 .ch-2{
     display: flex;
@@ -347,6 +340,32 @@ background: hsl(16,100%,45%);
 .sap-1 p,
 .sap-2 p{
 	padding: 2%;
+}
+/* btn-3d */
+.project{
+  background: hsla(183, 57%, 47%, 1);
+  box-shadow: -6px 6px 0 hsla(199, 55%, 31%, 1);
+
+}
+.project:hover{
+  background:hsla(183, 55%, 38%, 1);
+}
+.project:active{
+  background:hsla(199, 55%, 31%, 1);
+  box-shadow: -3px 3px 0 hsla(199, 55%, 31%, 1);
+
+}
+.project::before{
+   border-right: solid 6px hsla(199, 55%, 31%, 1);
+}
+.project:active::before{
+  border-right: solid 3px hsla(199, 55%, 31%, 1);
+}
+.project::after{
+  border-top:solid 6px hsla(199, 55%, 31%, 1);
+}
+.project:active::after{
+  border-top: solid 3px hsla(199, 55%, 31%, 1);
 }
 /*   ================================section_6==============================*/
 .sec_6{
@@ -394,8 +413,11 @@ input[type=button]:hover{
   filter: brightness(40%);
 }
 input[type=button]:active{
-  filter: brightness(30%);
-  box-shadow: 2px 5px 20px #eee; 
+  width: 27%;
+  -webkit-transition:all .5s ease;
+    -o-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    transition:all .5s ease;
 }
 /*===========================================footer=============================*/
 footer{

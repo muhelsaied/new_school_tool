@@ -63,3 +63,8 @@ let side_4_appear = function(){
    slide_3.style.display = "none";
    slide_4.style.display = "flex";
 }
+// arrow
+// let arrow = document.querySelector(".arrow");
+// let scroll = function(){
+// 	arrow.style.display = "block";
+// }

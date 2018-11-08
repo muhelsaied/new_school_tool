@@ -70,9 +70,10 @@ body{
     /*top: 4%;*/
     right: 10%;
 	color: #fff;
-	font-size: 2rem;
+	font-size: 3.5rem;
 	text-decoration: none;
 	padding: 10px;
+  font-weight: 900;
 
 }
 #navToggle:hover{
@@ -80,7 +81,7 @@ body{
 	filter: brightness(70%);
 	color: #fff;
 	border-radius: 2px;
-		z-index: 99;
+		z-index: 9999;
 }
 /*   ================================section_1==============================*/
 .sec_1{
@@ -252,6 +253,7 @@ background: hsl(16,100%,45%);
 .sec_5{
 	background: #f7da90;
 	color: #000;
+  padding-bottom: 0;
 }
 /*switch*/
 .switch{
@@ -445,4 +447,17 @@ footer{
 }
 .footer-link a:hover{
   color: #20e6ff;
+}
+/*scroll arrow*/
+.arrow{
+display:none; 
+padding: 15px;
+border-radius: 30%;
+position: fixed;
+bottom: 10%;
+right: 5%;
+background: hsla(285,100%,50%,.12);
+text-align: center;
+font-size: 20px;
+font-weight: 900;
 }

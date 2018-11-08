@@ -26,7 +26,7 @@
 	float: left;
 	margin-left: -200%;
 	/*filter: brightness(60%);*/
-	opacity: .8;
+	opacity: .92;
 	-webkit-transition: all .5s ease-in;
 	-moz-transition: all .5s ease-in;
 	-o-transition: all .5s ease-in;
@@ -67,7 +67,7 @@ font-size: 3em;
 	display: block;
 	position: absolute;
     /*top: 14%;*/
-    font-size: 3rem;
+    /*font-size: 3rem;*/
 
 }
 .main-wrapper{

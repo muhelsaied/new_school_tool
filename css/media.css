@@ -24,8 +24,11 @@
 	left: 0;
 	z-index: 999;
 	background:#9640bc;
-	top :-105%;
+	top :-200%;
 	float: left;
+	-webkit-opacity:.92;
+	-o-opacity:.92;
+	-moz-opacity:.92;
 	opacity: .92;
 	-webkit-transition: all .5s ease-in;
 	-moz-transition: all .5s ease-in;

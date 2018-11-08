@@ -413,6 +413,7 @@ input.message{
 
 }
 input[type=button]{
+  background: #3016d3;
 	display: block;
 	margin: 2% auto;
   width: 25%;

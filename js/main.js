@@ -4,16 +4,16 @@ let topNav = document.querySelector(".top-nav");
 let sideMenu = document.querySelector("#menuList");
 let btn_never = document.querySelector(".btn-3d-1");
 let container = document.querySelector(".container");
+
+
 let appearMenu = function(){
 if(getMenu === false){
 	sideMenu.style.marginLeft ="0";
 	topNav.style.position = "fixed";
-	container.style.marginTop = "24%";
 	getMenu = true;
 }else if(getMenu === true){
 	sideMenu.style.marginLeft = "-200%";
-	topNav.style.position = "fixed";
-	// container.style.marginTop = "0";
+	topNav.style.position = "unset";
 	getMenu = false;
 }
 }
@@ -63,8 +63,5 @@ let side_4_appear = function(){
    slide_3.style.display = "none";
    slide_4.style.display = "flex";
 }
-// arrow
-// let arrow = document.querySelector(".arrow");
-// let scroll = function(){
-// 	arrow.style.display = "block";
-// }
+
+

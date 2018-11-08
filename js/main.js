@@ -1,15 +1,19 @@
 let getMenu = false;
 let dropBtn = document.querySelector("#navToggle");
+let topNav = document.querySelector(".top-nav");
 let sideMenu = document.querySelector("#menuList");
 let btn_never = document.querySelector(".btn-3d-1");
+let container = document.querySelector(".container");
 let appearMenu = function(){
 if(getMenu === false){
 	sideMenu.style.marginLeft ="0";
-	// btn_never.style.position ="unset";
+	topNav.style.position = "fixed";
+	container.style.marginTop = "24%";
 	getMenu = true;
 }else if(getMenu === true){
 	sideMenu.style.marginLeft = "-200%";
-	// btn_never.style.position ="relative";
+	topNav.style.position = "fixed";
+	// container.style.marginTop = "0";
 	getMenu = false;
 }
 }

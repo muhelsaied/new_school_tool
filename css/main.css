@@ -4,7 +4,7 @@
   padding: 0;
 }
 body{
-  background: #fff;
+  background: #9640bc;
 }
 
 .top-nav{
@@ -17,10 +17,10 @@ body{
   padding-left: 0;
   padding-right: 0;
   width: 100%;
-  -webkit-transition: opacity 300ms;
+/*  -webkit-transition: opacity 300ms;
 	-moz-transition: opacity 300ms;
 	-o-transition: opacity 300ms;
-	        transition: opacity 300ms;
+	        transition: opacity 300ms;*/
 }
 /*======================nav-bar=====================================*/
 .logo{
@@ -42,10 +42,10 @@ body{
 	float: left;
 	margin: 0;
 	padding:0;
-	-webkit-transition: opacity 300ms;
+	/*-webkit-transition: opacity 300ms;
 	-moz-transition: opacity 300ms;
 	-o-transition: opacity 300ms;
-	        transition: opacity 300ms;
+	        transition: opacity 300ms;*/
 }
 .nav-list li{
 	float: left;
@@ -67,7 +67,6 @@ body{
 #navToggle{
 	display: none;
 	position: absolute;
-    /*top: 4%;*/
     right: 10%;
 	color: #fff;
 	font-size: 3.5rem;
@@ -82,7 +81,7 @@ body{
 	filter: brightness(70%);
 	color: #fff;
 	border-radius: 2px;
-		z-index: 9999;
+	z-index: 9999;
 }
 /*   ================================section_1==============================*/
 .sec_1{

@@ -10,6 +10,17 @@
   width: 100%;
   height: 80px;
   overflow: hidden;
+  -webkit-opacity:.92;
+	-o-opacity:.92;
+	-moz-opacity:.92;
+	opacity: .92;
+	-webkit-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	        transition: all .5s ease-in;
+}
+.container{
+	margin-top: 10%;
 }
 
 /*hide menu*/
@@ -27,10 +38,10 @@
 	background:#9640bc;
 	top :-200%;
 	float: left;
-	/*-webkit-opacity:.92;
+	-webkit-opacity:.92;
 	-o-opacity:.92;
 	-moz-opacity:.92;
-	opacity: .92;*/
+	opacity: .92;
 	-webkit-transition: all .5s ease-in;
 	-moz-transition: all .5s ease-in;
 	-o-transition: all .5s ease-in;
@@ -75,11 +86,12 @@ font-size: 3em;
 
 }
 @media screen and (min-width:180px) and (max-width: 680px){
+	.container{
+	margin-top: 24%;
+}
 	#navToggle{
 	display: block;
 	position: absolute;
-    /*top: 14%;*/
-    /*font-size: 3rem;*/
 
 }
 .main-wrapper{

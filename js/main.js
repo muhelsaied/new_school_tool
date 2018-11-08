@@ -8,10 +8,12 @@ let container = document.querySelector(".container");
 
 let appearMenu = function(){
 if(getMenu === false){
+	topNav.style.height ="100vh";
 	sideMenu.style.top ="15%";
 	getMenu = true;
 }else if(getMenu === true){
 	sideMenu.style.top ="-200%";
+	topNav.style.height ="80px";
 	getMenu = false;
 }
 }

@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 9999;
+  position: fixed;
   top:0;
   margin-top: 0;
   width: 100%;
@@ -26,10 +27,10 @@
 	background:#9640bc;
 	top :-200%;
 	float: left;
-	-webkit-opacity:.92;
+	/*-webkit-opacity:.92;
 	-o-opacity:.92;
 	-moz-opacity:.92;
-	opacity: .92;
+	opacity: .92;*/
 	-webkit-transition: all .5s ease-in;
 	-moz-transition: all .5s ease-in;
 	-o-transition: all .5s ease-in;

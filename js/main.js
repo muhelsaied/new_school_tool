@@ -9,13 +9,9 @@ let container = document.querySelector(".container");
 let appearMenu = function(){
 if(getMenu === false){
 	sideMenu.style.top ="15%";
-	// sideMenu.style.marginLeft = "0";
-	topNav.style.position = "fixed";
 	getMenu = true;
 }else if(getMenu === true){
-	// sideMenu.style.marginLeft = "-100%";
 	sideMenu.style.top ="-200%";
-	topNav.style.position = "unset";
 	getMenu = false;
 }
 }

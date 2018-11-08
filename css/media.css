@@ -10,9 +10,7 @@
   height: 80px;
   overflow: hidden;
 }
-/*.container{
-	margin-top: 10%;
-}*/
+
 /*hide menu*/
 .nav-list{
 	display: flex;
@@ -26,9 +24,8 @@
 	left: 0;
 	z-index: 999;
 	background:#9640bc;
+	top :-105%;
 	float: left;
-	margin-left: -200%;
-	/*filter: brightness(60%);*/
 	opacity: .92;
 	-webkit-transition: all .5s ease-in;
 	-moz-transition: all .5s ease-in;
@@ -61,6 +58,14 @@ font-size: 3em;
 }
 .footer-link a{
 	  
+  }
+  .switch{
+  	padding-right: 0px;
+    padding-left: 0px;
+  }
+  .form-wrap{
+  	padding-right: 0px;
+    padding-left: 0px
   }
 
 

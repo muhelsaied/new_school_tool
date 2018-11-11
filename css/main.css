@@ -286,6 +286,7 @@ background: hsl(16,100%,45%);
 .fab:hover,
 .far:hover{
 	background: #605e5e;
+  filter: brightness(80%);
 	color: #fff;
 }
 .prof-social{

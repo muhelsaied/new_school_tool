@@ -194,6 +194,10 @@ padding-right: 0;
     width: 100%;
     line-height: 1.7;
 }
+.footer-link a{
+  padding: 2%;
+}
+
 }
 @media screen and (min-width:180px) and (max-width: 580px){
   .sec_2 h2,
@@ -251,4 +255,45 @@ input.message{
 input[type=button]{
   width: 30%;
 }
+}
+@media screen and (min-width:180px) and (max-width: 380px){
+  .sec_2 h2,
+  .sec_3 h2,
+  .sec_4 h2,
+  .sec_5 h2,
+  .sec_6 h2,
+  .sec_7 h2{
+    font-size: 1.4rem;
+    font-family:" Spicy+Rice",sans-serif,serif;
+  }
+  .sec_2 h5,
+  .sec_3 h5,
+  .sec_4 h5,
+  .sec_5 h5,
+  .sec_6 h5,
+  .sec_7 h5{
+    font-size: 1.2rem;
+    padding:3% 0;
+  }
+  .sec_2 p,
+  .sec_3 p,
+  .sec_4 p,
+  .sec_5 p,
+  .sec_6 p,
+  .sec_7 p{
+    font-size: .85rem;
+    line-height: 2;
+  }
+.sub-wrapper h6{
+  font-size: .7rem;
+}
+.sec_4 .sub-wrapper{
+  margin: 5% 0 5% 0;
+}
+ .finial-wrapper{
+    margin: 5% 0 5% 0;
+ }
+ .footer-link a{
+   padding: 5%;
+ }
 }

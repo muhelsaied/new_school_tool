@@ -296,4 +296,7 @@ input[type=button]{
  .footer-link a{
    padding: 5%;
  }
+ .btn-3d-1{
+   padding: 8px 10px;
+ }
 }

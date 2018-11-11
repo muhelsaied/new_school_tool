@@ -31,10 +31,10 @@
 	text-align:center;
 	width: 100%;
 	height: 100%;
-	padding-top: 2%; 
+	padding-top: 2%;
 	position: fixed;
 	left: 0;
-	z-index: 999;
+  z-index: 9999;
 	background:#9640bc;
 	top :-200%;
 	float: left;
@@ -71,8 +71,62 @@ font-size: 3em;
 .sec_1{
 	font-size: 1.5em;
 }
+.sec_2 h2,
+.sec_3 h2,
+.sec_4 h2,
+.sec_5 h2,
+.sec_6 h2,
+.sec_7 h2{
+  font-size: 3.5rem;
+  font-family:" Spicy+Rice",sans-serif,serif;
+}
+.sec_2 h5,
+.sec_3 h5,
+.sec_4 h5,
+.sec_5 h5,
+.sec_6 h5,
+.sec_7 h5{
+  font-size: 1.7rem;
+  padding:3% 0;
+}
+.sec_2 p,
+.sec_3 p,
+.sec_4 p,
+.sec_5 p,
+.sec_6 p,
+.sec_7 p{
+  font-size:  1.5rem;
+  line-height: 1.4;
+}
+.sub-wrapper p{
+  margin: 0 auto;
+  font-size: 1.5rem;
+  max-width: 700px;
+  width: 100%;
+  line-height: 1.7;
+  font-weight: 100;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* sec_3 */
+.sec_3 .main-wrapper,
+.sec_2 .main-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.sec_3 .main-wrapper p{
+  max-width: 550px;
+  width: 100%;
+}
+.main-wrapper h6{
+font-size: 1.4rem;
+padding: 0;
+}
+.sec_6 .main-wrapper{
+  flex-direction: column;
+}
 .footer-link a{
-	  
+
   }
   .switch{
   	padding-right: 0px;
@@ -97,16 +151,22 @@ font-size: 3em;
 .main-wrapper{
 	flex-direction: column;
 }
+.main-wrapper p{
+  padding: 3% 0 3% 0;
+}
 .text-wrapper p{
 	line-height: 50px;
     padding: 4%;
     text-transform: capitalize;
 }
+
 .sub-1,
 .sub-2,
 .sub-3,
 .sub-4{
 flex-direction: column;
+padding-left: 0;
+padding-right: 0;
 }
 .switch button{
 	display: block;
@@ -116,7 +176,7 @@ flex-direction: column;
 }
 .sap-1,
 .sap-2{
-	padding-right: 0;
+	padding: 0;
 }
 .finial-wrapper{
 	display: flex;
@@ -127,9 +187,60 @@ flex-direction: column;
   flex-direction: column;
   margin-left: 0;
   }
+  .sub-wrapper p{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    max-width: 400px;
+    width: 100%;
+    line-height: 1.7;
+}
 }
 @media screen and (min-width:180px) and (max-width: 580px){
-	input[type=text],
+  .sec_2 h2,
+  .sec_3 h2,
+  .sec_4 h2,
+  .sec_5 h2,
+  .sec_6 h2,
+  .sec_7 h2{
+    font-size: 1.8rem;
+    font-family:" Spicy+Rice",sans-serif,serif;
+  }
+  .sec_2 h5,
+  .sec_3 h5,
+  .sec_4 h5,
+  .sec_5 h5,
+  .sec_6 h5,
+  .sec_7 h5{
+    font-size: 1rem;
+    padding:3% 0;
+  }
+  .sec_2 p,
+  .sec_3 p,
+  .sec_4 p,
+  .sec_5 p,
+  .sec_6 p,
+  .sec_7 p{
+    font-size: .8rem;
+    line-height: 1.4;
+  }
+  .sub-wrapper p{
+    margin: 0 auto;
+    font-size: .8rem;
+    max-width: 700px;
+    width: 100%;
+    line-height: 1.7;
+    font-weight: 100;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sub-wrapper h6{
+     font-size: 0.9rem;
+  }
+  .fab,
+  .far{
+    padding: 8px;
+  }
+input[type=text],
 input[type=email]{
 	width: 50%;
 }

@@ -63,5 +63,28 @@ let side_4_appear = function(){
    slide_3.style.display = "none";
    slide_4.style.display = "flex";
 }
+// sticky navbar
+// 	let scroll = topNav.offsetTop;
+// window.onscroll = function(){
+// 	if(window.pageYOffset >= scroll){
+// 		topNav.classList.add("sticky");
+// 	} else {
+// 		topNav.classList.remove("sticky");
+// 	}
+// };
 
-
+// // When the user scrolls the page, execute myFunction
+// window.onscroll = function() {scroll()};
+//
+// // Get the offset position of the navbar
+// let sticky = topNav.offsetTop;
+//
+// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// function scroll() {
+//   if (window.pageYOffset >= sticky) {
+//     topNav.classList.add("sticky")
+// 		container.style.paddingTop = "60px";
+//   } else {
+//     topNav.classList.remove("sticky");
+//   }
+// }

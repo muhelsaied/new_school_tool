@@ -250,7 +250,7 @@ background: hsl(16,100%,45%);
 	background: transparent;
 	display: block;
 	margin: 2% auto;
-	border-radius: 50%;
+	border-radius: 30%;
 }
 .main-wrapper{
 	 display: flex;

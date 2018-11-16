@@ -250,7 +250,11 @@ background: hsl(16,100%,45%);
 	background: transparent;
 	display: block;
 	margin: 2% auto;
-	border-radius: 30%;
+}
+.circle{
+  width: 150px;
+   height: 150px;
+   border-radius: 100%;
 }
 .main-wrapper{
 	 display: flex;
@@ -480,13 +484,13 @@ input[type=button]{
   background: #3016d3;
 	display: block;
 	margin: 2% auto;
-  width: 25%;
+  width: 30%;
 }
 input[type=button]:hover{
   filter: brightness(40%);
 }
 input[type=button]:active{
-  width: 27%;
+  width: 35%;
   -webkit-transition:all .5s ease;
     -o-transition:all .5s ease;
     -moz-transition:all .5s ease;

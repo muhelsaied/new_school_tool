@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 9999;
-  position: fixed;
   top:0;
   margin-top: 0;
   width: 100%;
@@ -18,9 +17,6 @@
 	-moz-transition: all .5s ease-in;
 	-o-transition: all .5s ease-in;
 	        transition: all .5s ease-in;
-}
-.container{
-	margin-top: 10%;
 }
 
 /*hide menu*/
@@ -140,9 +136,6 @@ padding: 0;
 
 }
 @media screen and (min-width:180px) and (max-width: 680px){
-	.container{
-	margin-top: 24%;
-}
 	#navToggle{
 	display: block;
 	position: absolute;

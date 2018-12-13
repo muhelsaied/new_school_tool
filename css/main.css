@@ -26,8 +26,7 @@ body{
   margin-top: 0;
   position: fixed;
   width: 100%;
-  background: #9640abc;
-  filter:opacity(.8);
+  filter:opacity(.9);
    -webkit-transition: all 1s ease;
   	-moz-transition: all 1s ease;
   	-o-transition: all 1s ease;

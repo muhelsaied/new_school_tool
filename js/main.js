@@ -12,7 +12,7 @@ if(getMenu === false){
 	sideMenu.style.top ="15%";
 	getMenu = true;
 }else if(getMenu === true){
-	sideMenu.style.top ="-500%";
+	sideMenu.style.top ="-800%";
 	topNav.style.height ="80px";
 	getMenu = false;
 }
